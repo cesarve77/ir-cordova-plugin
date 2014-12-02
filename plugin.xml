@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-    id="org.devgirl.calendar"
-    version="0.1.0">
+    id="cesarve77.irplugin"
+    version="0.0.1">
     <name>Calendar</name>
     <description>IR Plugin</description>
     <license>MIT</license>
@@ -17,7 +17,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Ir">
-                <param name="android-package" value="cesarve77.irplugin.Ir"/>
+                <param name="android-package" value="cesarve77.irplugin" />
             </feature>
         </config-file>
 

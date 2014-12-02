@@ -1,4 +1,4 @@
-package cesarve77.irplugin.Ir;
+package cesarve77.irplugin;
 
 import android.hardware.ConsumerIrManager;
 
