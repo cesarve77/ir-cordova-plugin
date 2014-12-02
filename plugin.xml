@@ -3,7 +3,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     id="cesarve77.irplugin"
     version="0.0.1">
-    <name>Calendar</name>
+    <name>IR</name>
     <description>IR Plugin</description>
     <license>MIT</license>
     <keywords>IR,infrared</keywords>
