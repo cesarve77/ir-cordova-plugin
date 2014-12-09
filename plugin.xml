@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin id="cesarve77.irplugin" version="0.0.1" xmlns="http://www.phonegap.com/ns/plugins/1.0">
-    <name>IR</name>
+<plugin id="com.imagenproactiva.irplugin" version="0.0.1" xmlns="http://www.phonegap.com/ns/plugins/1.0">
+    <name>Ir</name>
     <description>IR Plugin</description>
     <license>MIT</license>
     <keywords>IR,infrared</keywords>
 
 
-    <js-module name="IR" src="www/ir.js">
+    <js-module name="Ir" src="www/ir.js">
         <clobbers target="window.ir" />
     </js-module>
 
@@ -15,14 +15,15 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="Ir">
-                <param name="android-package" value="cesarve77.irplugin" />
+                <param name="android-package" value="com.imagenproactiva.irplugin.Ir" />
             </feature>
         </config-file>
+
+        <source-file src="src/android/Ir.java" target-dir="src/cesarve77/ir/" />
         <config-file parent="/*" target="AndroidManifest.xml">
             <uses-permission android:name="android.permission.TRANSMIT_IR"
                 android:required="false" />
             <uses-feature android:name="android.hardware.consumerir" />
         </config-file>
-        <source-file src="src/android/Ir.java" target-dir="src/cesarve77/ir/" />
     </platform>
 </plugin>

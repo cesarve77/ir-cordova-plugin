@@ -1,6 +1,6 @@
       var ir = {
 
-        transmit: function(successCallback, errorCallback, frequency, signal){
+        transmit: function(frequency, signal,successCallback, errorCallback){
           cordova.exec(successCallback,
               errorCallback,
               "Ir",
